@@ -2,8 +2,8 @@
 # Description: This script takes a stream of serial input from an arduino
 #              containing temperature, resistance, and weight data.
 #              The data is then plotted in the using matplotlib. The ability
-#			   to live stream data is possible but follow the instructions
-#			   below to do so.
+#              to live stream data is possible but follow the instructions
+#	       below to do so.
 # 
 # Author: Kevin Rivera
 # Creation date: 12/08/2017
