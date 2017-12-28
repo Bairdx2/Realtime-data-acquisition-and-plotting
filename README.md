@@ -28,4 +28,4 @@ Explanation of files:
 
 - The Python files both assume a serial connection to arduino 2 but depending on how arduino 1 and 2 are connected (i2C or wireless)
   will determine which .py file is used. Ex: Pi-Ard_I2C_Plots.py assumes that arduino 1 and 2 are connected via I2C and the data is
-  only plotted offline while Pi-Ard_I2C_Web_Plots.py does the same but streams/plots the data to * plot.ly
+  only plotted offline while Pi-Ard_I2C_Web_Plots.py does the same but streams/plots the data to [plot.ly](plot.ly)
