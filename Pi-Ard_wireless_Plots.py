@@ -32,11 +32,11 @@ com2 = 0                                    # Counter to keep track of comma 2.
 
 ######################################### Body #################################################
 
-port = S.Serial('COM5',9600)         		    # Port is opened to allow communication
+port = S.Serial('COM5',9600)         		# Port is opened to allow communication
                                                 # between the rasPi and arduino
 											 
 for i in range(20):
-    message = port.readline() 				    # Message from the arduino is read
+    message = port.readline() 			# Message from the arduino is read
     message = message.decode()
     if message[0] == 'a':                       # Check to see if the message is thermocouple data
         k = 0
