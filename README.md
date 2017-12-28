@@ -31,4 +31,4 @@ Explanation of files:
   only plotted offline while Pi-Ard_I2C_Web_Plots.py does the same but streams/plots the data to [plot.ly](https://plot.ly/)
 
 
-![alt text](C:\Users\Bairdx2\Downloads\School Material\Class Material\OCG 404\Homework Material\Assignment 16\Realtime data acq and plotting/f.jpg?raw=true "f")
+![Alt text](C:\Users\Bairdx2\Downloads\School Material\Class Material\OCG 404\Homework Material\Assignment 16\Realtime data acq and plotting/f.jpg?raw=true "f")
