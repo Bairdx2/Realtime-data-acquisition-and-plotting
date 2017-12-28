@@ -53,7 +53,7 @@ Weight = Scatter(x=[], y=[], stream=stream3, name='Weight(lbs)', marker = dict(c
 data1 = [Resistance, Temperature]
 data2 = [Weight]
 
-layout1 = Layout(								# Formatting plots to be double axis for temperature data.
+layout1 = Layout(					# Formatting plots to be double axis for temperature data.
     title = 'Temperature and resistance data',
     yaxis = dict(
         title = 'Resistance(ohms)',
@@ -80,7 +80,7 @@ layout1 = Layout(								# Formatting plots to be double axis for temperature da
     )
 )
         
-layout2 = Layout(								 # Formatting for the weight plot
+layout2 = Layout(					# Formatting for the weight plot
     title='Load cell data',
     yaxis = dict(
         title = 'Weight(lbs)',
@@ -106,20 +106,20 @@ stream1 = py.Stream(stream_token1)				# Initializes the streaming of data to the
 stream2 = py.Stream(stream_token2)
 stream3 = py.Stream(stream_token3)
 
-stream1.open()									# Opens a window with the plots formatted above.
+stream1.open()							# Opens a window with the plots formatted above.
 stream2.open()
 stream3.open()
 
 
 ######################################### Body #################################################
 
-port = S.Serial('COM5',9600)         		       # Port is opened to allow communication
+port = S.Serial('COM5',9600)         		# Port is opened to allow communication
                                                 # between the rasPi and arduino.
 											 
 for i in range(300):
 
     #while True:
-    message = port.readline() 				       # Message from the arduino is read.
+    message = port.readline() 		        # Message from the arduino is read.
     message = message.decode()
     k = 0
     while(k < len(message)):                    # The two resistance values are pulled from the
