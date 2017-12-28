@@ -32,11 +32,11 @@ time = []                                   # Time for the plots will be appende
 commas = []                                 # Index positions for commas will be appended to this list temporarily.
 tick = 0                                    # Counter for the plots time data.
 
-username = 'Bairdx2'                        # Username for plot.ly.
-api_key = 'SRO19YUo5EP4VtrMqega'            # API key provided by plot.ly.
-stream_token1 = 'r0jkx2ynjq'                # Stream token provided by ploy.ly.
-stream_token2 = '7l1fleh3cj'
-stream_token3 = 'vmhuj53h2x'
+username = 'username'                       # Username for plot.ly.
+api_key = 'key'            		    # API key provided by plot.ly.
+stream_token1 = 'token1'                    # Stream token provided by ploy.ly.
+stream_token2 = 'token2'
+stream_token3 = 'token3'
 
 
 stream1=dict(token=stream_token1,maxpoints=1000)# Keep the stream token and number of data points you want visible on the screen at once. 
@@ -113,7 +113,7 @@ stream3.open()
 
 ######################################### Body #################################################
 
-port = S.Serial('COM5',9600)         		# Port is opened to allow communication
+port = S.Serial('COM5',9600)         		# Port is opened to allow communication (adjust to match the com used in your computer/raspi)
                                                 # between the rasPi and arduino.
 											 
 for i in range(300):
