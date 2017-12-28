@@ -3,7 +3,7 @@
 // Description: This arduino file takes the inputs from a	    /
 //				thermocouple and thermistor and transmits           /
 //				the data using an I2C connection to another         /     
-//				arduino acting as a slave reciever.                 /                         /
+//				arduino acting as a slave reciever.                 /
 //                                                            /
 // Authors:  Kevin Rivera                                     /
 // Creation Date:  12.04.18 v1.0                              /
