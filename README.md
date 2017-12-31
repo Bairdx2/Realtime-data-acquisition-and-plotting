@@ -1,5 +1,8 @@
 # Realtime-data-acquisiton-and-plotting
 
+Arduino1---------------Arduino2---------------Raspi/computer---------------Realtime plots
+         I2C/wireless              pyserial                      plot.ly
+         
 ### Intended flow of the project:
   - Use a thermocouple and thermistor to measure temperature.
   - Use a load cell to measure weight or strain.
