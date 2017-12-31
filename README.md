@@ -1,6 +1,6 @@
-#Realtime-data-acquisiton-and-plotting
+# Realtime-data-acquisiton-and-plotting
 
-Intended flow of the project:
+## Intended flow of the project:
   - Use a thermocouple and thermistor to measure temperature.
   - Use a load cell to measure weight or strain.
   - Aquire data from these sensors using an arduino.
