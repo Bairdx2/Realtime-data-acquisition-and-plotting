@@ -29,3 +29,15 @@ to achieve a more streamline version of the intended project or to help with har
 - The Python files both assume a serial connection to arduino 2 but depending on how arduino 1 and 2 are connected (i2C or wireless)
   will determine which .py file is used. Ex: Pi-Ard_I2C_Plots.py assumes that arduino 1 and 2 are connected via I2C and the data is
   only plotted offline while Pi-Ard_I2C_Web_Plots.py does the same but streams/plots the data to [plot.ly](https://plot.ly/)
+  
+### Supplies used:
+- Arduino UNO x2
+- Raspberry Pi 3
+- 10Kohm Negative TCR Thermistor
+- Type K thermocouple
+- [Adafruit Max31855 thermocouple amplifier](https://www.adafruit.com/product/269)
+- [Loadcell amplifier](https://www.sparkfun.com/products/13879)
+- [Loadcell](https://www.sparkfun.com/products/13329)
+- [Adafruit datalogging shield](https://www.adafruit.com/product/1141)
+- [315MHz RF transmitter](https://www.sparkfun.com/products/10535)
+- [315MHz RF receiver](https://www.sparkfun.com/products/10533)
