@@ -2,7 +2,7 @@
 
 Arduino1---------------Arduino2---------------Raspi/computer---------------Realtime plots
 
-######         I2C/wireless              #####pyserial                      #####plot.ly
+######___I2C/wireless_____________pyserial______________________plot.ly
          
 ### Intended flow of the project:
   - Use a thermocouple and thermistor to measure temperature.
