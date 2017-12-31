@@ -1,6 +1,6 @@
 # Realtime-data-acquisiton-and-plotting
 
-## Intended flow of the project:
+### Intended flow of the project:
   - Use a thermocouple and thermistor to measure temperature.
   - Use a load cell to measure weight or strain.
   - Aquire data from these sensors using an arduino.
@@ -16,12 +16,12 @@ The project is written in modular chunks so that the user has the freedom to con
 to achieve a more streamline version of the intended project or to help with hardware debugging along the way.
 
 
-Explanation of acronyms:
+### Explanation of acronyms:
   - Ard = arduino
   - Pi = Raspberrypi
   - dR = change in resistance
 
-Explanation of files:
+### Explanation of files:
 - Most arduino files have either two or three parts to them depending on how the two arduino can interact. Ex: the Temp_dR-I2C.ino
   is written for a thermistor and thermocouple which arduino 1 collects data for and it is connected to arduino 2 via I2C
   and running I2C_connection.ino.
