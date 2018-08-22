@@ -7,7 +7,7 @@
 //				wireless transmitter.   					                  /
 //                                                            /
 // Authors:  Kevin Rivera                                     /
-// Creation Date:  12.02.18 v1.0                              /
+// Creation Date:  12.02.17 v1.0                              /
 ///////////////////////////////////////////////////////////////
 
 //Circuit diagram:
