@@ -32,7 +32,7 @@ time = []                                   # Time for the plots will be appende
 commas = []                                 # Index positions for commas will be appended to this list temporarily.
 tick = 0                                    # Counter for the plots time data.
 
-# Uncomment this code and fill in the values in order to live stream the data to plot.ly
+# Uncomment this code and fill the values in order to live stream the data to plot.ly
 
 #username = 'username'
 #api_key = 'key'
