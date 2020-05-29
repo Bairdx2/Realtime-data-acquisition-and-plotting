@@ -3,7 +3,7 @@
 // Description: This arduino file takes the inputs from a	    /
 //				load cell and transmits the data wirelessly         /
 //				using a wireless transmitter of either 315MHz       /
-//				or 434MHz to another arduino with a reciever        /
+//				or 433MHz to another arduino with a reciever        /
 //				of the same frequency.                              /
 //                                                            /
 // Authors:  Kevin Rivera                                     /
