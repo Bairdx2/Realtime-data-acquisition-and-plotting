@@ -49,7 +49,7 @@ byte msgLength = VW_MAX_MESSAGE_LEN;       // the size of the message.
 void setup(){
   
   Serial.begin(9600);                      // Serial connection with baud rate of 9600.
-  vw_setup(100);                          // Wireless communication bits per second.
+  vw_setup(2000);                          // Wireless communication bits per second.
   vw_rx_start();                           // Starts the receiver.
 }
 
