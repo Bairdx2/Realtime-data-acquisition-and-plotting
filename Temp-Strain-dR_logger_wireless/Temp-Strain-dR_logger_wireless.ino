@@ -3,7 +3,7 @@
 // Description: This arduino file takes the inputs from a     /
 //        thermocouple, thermistor and loadcell and           /
 //        transmits the data wirelessly using a wireless      /
-//        transmitter of either 315MHz or 434MHz to           /
+//        transmitter of either 315MHz or 433MHz to           /
 //        another arduino with a reciever of the same         /
 //        frequency. The data is also stored in SD storage    /
 //        for later manipulation.                             /
